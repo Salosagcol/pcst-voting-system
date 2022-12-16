@@ -39,7 +39,7 @@ class VoteRoute extends StatelessWidget {
       );
     } else {
       Fluttertoast.showToast(
-        msg: 'Voters key is Unrgistered!',
+        msg: 'Voters key is Unregistered!',
         backgroundColor: Colors.red,
         textColor: Colors.white,
         toastLength: Toast.LENGTH_SHORT,

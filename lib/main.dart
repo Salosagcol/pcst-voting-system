@@ -29,7 +29,7 @@ class HomeRoute extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color.fromRGBO(189, 249, 255, 1),
+      backgroundColor: Color.fromARGB(255, 41, 26, 74),
       body: SingleChildScrollView(
         child: Container(
           child: Padding(
@@ -40,7 +40,7 @@ class HomeRoute extends StatelessWidget {
                   image: AssetImage('images/logo.png'),
                 ),
                 Text(
-                  'Voting App',
+                  'VOTING APP',
                   style: TextStyle(
                       color: Color.fromARGB(255, 157, 10, 248),
                       fontSize: 40,
